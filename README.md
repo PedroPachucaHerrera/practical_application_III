@@ -59,10 +59,9 @@ before we  build a basic model, we must work to encode the data. Using just the 
 
 # Modeling
 
-Fisrt step is to stablish a baseline model as a reference, the baseline score form this base model is 0.882. we will compare subsequen models to this based model 
+Fisrt step is to stablish a baseline model as a reference, the baseline score from this base model is 0.882. we will compare subsequen models to this based model.
 
-
-
+using default setting four models are created : Logistit regression, Decision Tree, and SVM, yielding the below resuts:
 
 
 # Evaluation
