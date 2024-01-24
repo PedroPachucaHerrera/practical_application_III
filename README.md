@@ -63,8 +63,31 @@ Fisrt step is to stablish a baseline model as a reference, the baseline score fr
 
 using default setting four models are created : Logistit regression, Decision Tree, and SVM, yielding the below resuts:
 
+![image](https://github.com/PedroPachucaHerrera/practical_application_III/assets/39275405/0a61cc1a-732c-4c02-85ca-adbe69f14093)
+
+Findings:
+for this table we can see that all modesl yield better accuracy than the based model, however we observe the following
+
+- SVM is very compute-intense and takes a long time to train the model however precison is the highest and for this execrice we have decided to focus on preciison since this will allow the bank companies to maximize the resources with tragets that are more likley to apply the deposit.
+  
+- Logistic regression shows high level of accuracy but offers lower presicion, hoeever compute time is the lowest
+
+- KNN and Desicion tree show higher levels of accaracy but lower rnaking in Precision.
+
+# from this results, logistics regresion offers the best trade offs, our next step is to try to improve this models and see if hypermaters can help to improve this models
 
 # Evaluation
 
-# Deployment 
+using GridsearchVC and a range of hyperparameters, the below table shows the new results of the 4 models 
+
+![image](https://github.com/PedroPachucaHerrera/practical_application_III/assets/39275405/5f3e2f21-5ff1-41a8-9d30-ab9f3ce0d077)
+
+# after looking at the above results, we decide to pick the desicion tree classifier models, this model shows the highest level of precision and with the highest level of acuracy on training and tets data, in addition trainig time is the second lowest.
+to offer more insights to our cutsomer,  the most importnat fetaures are identified, this will allow our customer to develop strategies around the most important parameters that bring the most impact.
+
+![image](https://github.com/PedroPachucaHerrera/practical_application_III/assets/39275405/cd3dca6a-9554-4d7c-8677-724875d1d56c)
+
+
+
+
 
