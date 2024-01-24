@@ -74,7 +74,7 @@ for this table we can see that all modesl yield better accuracy than the based m
 
 - KNN and Desicion tree show higher levels of accaracy but lower rnaking in Precision.
 
-# from this results, logistics regresion offers the best trade offs, our next step is to try to improve this models and see if hypermaters can help to improve this models
+# from this results, logistics regresion yields the best results, our next step is to try to improve this models and see if hypermaters can help to improve this models
 
 # Evaluation
 
