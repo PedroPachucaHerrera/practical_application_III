@@ -74,7 +74,7 @@ for this table we can see that all modesl yield better accuracy than the based m
 
 - KNN and Desicion tree show higher levels of accaracy but lower rnaking in Precision.
 
-### from this results, logistics regresion yields the best results, our next step is to try to improve this models and see if hypermaters can help to improve this models
+### From this results, logistics regresion yields the best results, our next step is to try to improve this models and see if hypermaters can help to improve this models
 
 # Evaluation
 
@@ -82,7 +82,7 @@ using GridsearchVC and a range of hyperparameters, the below table shows the new
 
 ![image](https://github.com/PedroPachucaHerrera/practical_application_III/assets/39275405/5f3e2f21-5ff1-41a8-9d30-ab9f3ce0d077)
 
-### after looking at the above results, we decide to pick the desicion tree classifier models, this model shows the highest level of precision and with the highest level of acuracy on training and tets data, in addition trainig time is the second lowest.
+### After looking at the above results, we decide to pick the desicion tree classifier models, this model shows the highest level of precision and with the highest level of acuracy on training and tets data, in addition trainig time is the second lowest.
 to offer more insights to our cutsomer,  the most importnat fetaures are identified, this will allow our customer to develop strategies around the most important parameters that bring the most impact.
 
 ![image](https://github.com/PedroPachucaHerrera/practical_application_III/assets/39275405/cd3dca6a-9554-4d7c-8677-724875d1d56c)
